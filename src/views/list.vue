@@ -1,6 +1,6 @@
 <template>
   <div class="list">
-      sssssssssssssssssssssssssssssssssss
+      安辉 你好
   </div>
 </template>
 <script>

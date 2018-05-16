@@ -3,11 +3,12 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import 'lib-flexible/flexible.js'
+// import 'lib-flexible/flexible.js'
 import fastClick from 'fastclick'
 import store from './vuex/store'
 import Api from './utils/api'
 import config from '../config/index'
+import './assets/iconfont/iconfont.css'
 
 // init fastClick
 fastClick.attach(document.body)
@@ -25,6 +26,8 @@ Vue.filter('removeComma', (number) => {
 })
 
 Vue.config.productionTip = false
+
+
 
 /* eslint-disable no-new */
 new Vue({
